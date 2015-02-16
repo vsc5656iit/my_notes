@@ -47,5 +47,12 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'shoulda'
   gem 'shoulda-matchers', require: false
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  gem 'guard-cucumber'
+  gem 'selenium-webdriver'
 end
+
+gem 'simple_form'
+gem 'bootstrap-sass'
 
