@@ -53,6 +53,9 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+gem "letter_opener", :group => :development
+
 gem 'simple_form'
 gem 'bootstrap-sass'
-
+gem 'devise'
+gem 'capybara-email'

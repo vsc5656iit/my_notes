@@ -5,7 +5,8 @@ Feature: Notes
 
   @javascript
   Scenario: Add a Note
-    Given I am in home page
+    Given I am logged in
+    And I am in home page
     Then I should see "My Notes"
     When I enter "Remember Milk" in note input
     And I press "Add Note"
