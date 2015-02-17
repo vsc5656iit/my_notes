@@ -1,5 +1,5 @@
 Feature: Notes
-  In order remeber things
+  In order to remember things
   As a organized person
   I want to save notes
 
